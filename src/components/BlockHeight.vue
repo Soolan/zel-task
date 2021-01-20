@@ -6,6 +6,7 @@
       </md-card-header>
       <md-card-content>
         <h1>{{ data.blocks }}</h1>
+        <md-progress-spinner v-if="!data" md-mode="indeterminate"></md-progress-spinner>
       </md-card-content>
     </md-card>
   </div>
